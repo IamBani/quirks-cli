@@ -1,0 +1,19 @@
+{
+  "name": "@quirks/command",
+  "version": "1.0.0",
+  "description": "quirks command",
+  "author": "bani",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module"
+}

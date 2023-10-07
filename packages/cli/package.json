@@ -1,0 +1,32 @@
+{
+  "name": "@quirks/cli",
+  "version": "1.0.0",
+  "description": "quirks cli",
+  "author": "bani",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "quirks": "bin/cli.js"
+  },
+  "devDependencies": {
+    "dirname-filename-esm": "1.1.1",
+    "fs-extra": "11.1.1",
+    "chalk": "5.3.0",
+    "semver": "7.5.4",
+    "import-local": "3.1.0",
+    "commander": "11.0.0",
+    "@quirks/init": "workspace:^1.0.0",
+    "@quirks/utils": "workspace:^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "type": "module"
+}

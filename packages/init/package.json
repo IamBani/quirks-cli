@@ -1,0 +1,26 @@
+{
+  "name": "@quirks/init",
+  "version": "1.0.0",
+  "description": "quirks init command",
+  "author": "bani",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "dependencies": {
+    "path-exists": "5.0.0",
+    "fs-extra": "11.1.1",
+    "ora": "7.0.1",
+    "execa": "8.0.1",
+    "@quirks/command": "workspace:^1.0.0",
+    "@quirks/utils": "workspace:^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "type": "module"
+}
