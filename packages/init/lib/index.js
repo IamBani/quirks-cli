@@ -13,7 +13,13 @@ class InitCommand extends Command {
     return 'init project'
   }
   get options() {
-    return [['-f --force', '是否强制更新', false]]
+    return [
+      ['-f --force', '是否强制更新', false],
+      ['-t --type <type>', '项目类型(project/page)'],
+      ['-tp --template <template>', '模板名称'],
+      ['-r, --registry <url>', '模板源地址'],
+      ['-tt, --templateType <templateType>', '项目类型(pc/h5)']
+    ]
   }
   async action([name, options]) {
     const selectTemplate = await createTemplate(name, options)

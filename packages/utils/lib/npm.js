@@ -3,9 +3,9 @@ import urlJoin from 'url-join'
 import axios from 'axios'
 
 import { log } from './log.js'
-function getNpmInfo(npmName) {
+function getNpmInfo(npmName, registry) {
   // cnpm http://registry.npmmirror.com
-  const registry = 'https://registry.npmjs.org/'
+  registry = registry || 'https://registry.npmjs.org/'
   const url = urlJoin(registry, npmName)
   return axios.get(url).then((response) => {
     try {
@@ -16,8 +16,8 @@ function getNpmInfo(npmName) {
   })
 }
 
-export function getLatestVersion(npmName) {
-  return getNpmInfo(npmName).then((data) => {
+export function getLatestVersion(npmName, registry) {
+  return getNpmInfo(npmName, registry).then((data) => {
     if (!data['dist-tags'] || !data['dist-tags'].latest) {
       log.error('没有 latest 版本号')
       return Promise.reject(new Error('没有 latest 版本号'))

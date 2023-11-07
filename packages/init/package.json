@@ -1,6 +1,6 @@
 {
   "name": "@quirks/init",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "quirks init command",
   "author": "bani",
   "license": "ISC",
@@ -10,8 +10,10 @@
     "fs-extra": "11.1.1",
     "ora": "7.0.1",
     "execa": "8.0.1",
-    "@quirks/command": "workspace:^1.0.0",
-    "@quirks/utils": "workspace:^1.0.0"
+    "ejs": "3.1.9",
+    "glob": "10.3.10",
+    "@quirks/command": "workspace:^1.0.2",
+    "@quirks/utils": "workspace:^1.0.2"
   },
   "directories": {
     "lib": "lib"
@@ -21,6 +23,5 @@
   },
   "files": [
     "lib"
-  ],
-  "type": "module"
+  ]
 }

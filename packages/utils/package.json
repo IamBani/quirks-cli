@@ -1,6 +1,6 @@
 {
   "name": "@quirks/utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "quirks utils",
   "author": "bani",
   "license": "ISC",
@@ -19,6 +19,5 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "type": "module"
+  }
 }

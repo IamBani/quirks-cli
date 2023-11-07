@@ -1,12 +1,15 @@
 {
   "name": "@quirks/cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "quirks cli",
   "author": "bani",
   "license": "ISC",
   "main": "lib/index.js",
   "bin": {
-    "quirks": "bin/cli.js"
+    "quirks": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "esbuild --bundle ./bin/cli.js --format=cjs --platform=node --outdir=dist --watch"
   },
   "devDependencies": {
     "dirname-filename-esm": "1.1.1",
@@ -15,8 +18,8 @@
     "semver": "7.5.4",
     "import-local": "3.1.0",
     "commander": "11.0.0",
-    "@quirks/init": "workspace:^1.0.0",
-    "@quirks/utils": "workspace:^1.0.0"
+    "@quirks/init": "workspace:^1.0.2",
+    "@quirks/utils": "workspace:^1.0.2"
   },
   "directories": {
     "lib": "lib"
@@ -27,6 +30,5 @@
   "files": [
     "lib",
     "bin"
-  ],
-  "type": "module"
+  ]
 }

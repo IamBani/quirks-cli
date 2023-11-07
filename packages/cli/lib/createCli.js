@@ -3,11 +3,9 @@ import { program } from 'commander'
 import fsExtra from 'fs-extra'
 import semver from 'semver'
 import chalk from 'chalk'
-import { dirname } from 'dirname-filename-esm'
 import { log } from '@quirks/utils'
 import './exception.js'
 
-const __dirname = dirname(import.meta)
 const pkgPath = path.resolve(__dirname, '../package.json')
 const pkg = fsExtra.readJSONSync(pkgPath, 'utf8')
 

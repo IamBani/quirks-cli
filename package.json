@@ -16,7 +16,6 @@
   "engines": {
     "node": ">=16"
   },
-  "baseBranch": "main",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
@@ -29,7 +28,8 @@
     "husky": "^8.0.1",
     "lint-staged": "14.0.0",
     "prettier": "3.0.2",
-    "@changesets/cli": "2.26.2"
+    "@changesets/cli": "2.26.2",
+    "esbuild": "0.19.4"
   },
   "config": {
     "commitizen": {
@@ -40,6 +40,5 @@
     "cli"
   ],
   "author": "bani",
-  "license": "ISC",
-  "type": "module"
+  "license": "ISC"
 }
