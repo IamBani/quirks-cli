@@ -3,8 +3,10 @@ import { program } from 'commander'
 import fsExtra from 'fs-extra'
 import semver from 'semver'
 import chalk from 'chalk'
-import { log } from '@quirks/utils'
+import { log, getDirName } from '@quirks/utils'
 import './exception.js'
+
+const __dirname = getDirName(import.meta.url)
 
 const pkgPath = path.resolve(__dirname, '../package.json')
 const pkg = fsExtra.readJSONSync(pkgPath, 'utf8')
@@ -31,7 +33,7 @@ function preAction() {
 export default function createCli() {
   log.info('version', pkg.version)
   program
-    .name(Object.keys(pkg.bin)[0])
+    .name('quirks')
     .usage('<command> [options]')
     .version(pkg.version)
     .option('-d --debug', '是否开启调试模式', false)

@@ -1,5 +1,14 @@
 # @quirks/init
 
+## 1.0.3
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @quirks/command@1.0.3
+  - @quirks/utils@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

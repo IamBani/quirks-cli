@@ -6,4 +6,14 @@ import { makeList, makeInput } from './inquirer.js'
 
 import { getLatestVersion } from './npm.js'
 
-export { log, debug, makeList, makeInput, getLatestVersion }
+import { getDirName, getFileName } from './dir.js'
+
+export {
+  log,
+  debug,
+  makeList,
+  makeInput,
+  getLatestVersion,
+  getDirName,
+  getFileName
+}
