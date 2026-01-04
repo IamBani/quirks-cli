@@ -1,10 +1,11 @@
 {
   "name": "@quirks/utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "quirks utils",
   "author": "bani",
   "license": "ISC",
   "main": "lib/index.js",
+  "type": "module",
   "devDependencies": {
     "url-join": "5.0.0",
     "axios": "1.5.0",

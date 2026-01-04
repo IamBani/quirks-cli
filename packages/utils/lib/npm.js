@@ -7,6 +7,7 @@ function getNpmInfo(npmName, registry) {
   // cnpm http://registry.npmmirror.com
   registry = registry || 'https://registry.npmjs.org/'
   const url = urlJoin(registry, npmName)
+  console.log(url)
   return axios.get(url).then((response) => {
     try {
       return response.data

@@ -1,12 +1,12 @@
-import npmlog from 'npmlog'
+import log from 'npmlog'
 import { debug } from './debug.js'
-if (debug()) {
-  npmlog.level = 'verbose'
-} else {
-  npmlog.level = 'info'
-}
-npmlog.heading = 'quirks'
 
-npmlog.addLevel('success', 2000, { fg: 'green', bold: true })
+const level = debug() ? 'verbose' : 'info'
+log.level = level
 
-export const log = npmlog
+// 添加自定义的 success 日志级别
+log.addLevel('success', 2000, { fg: 'green', bold: true })
+
+// 导出配置好的日志实例
+
+export { log }
