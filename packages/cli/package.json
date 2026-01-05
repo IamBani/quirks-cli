@@ -1,6 +1,6 @@
 {
-  "name": "@quirks/cli",
-  "version": "1.0.4",
+  "name": "@quirks-cli/cli",
+  "version": "1.0.0",
   "description": "quirks cli",
   "author": "bani",
   "license": "ISC",
@@ -11,8 +11,8 @@
   },
   "scripts": {},
   "devDependencies": {
-    "@quirks/init": "workspace:^1.0.3",
-    "@quirks/utils": "workspace:^1.0.3",
+    "@quirks-cli/init": "workspace:^1.0.0",
+    "@quirks-cli/utils": "workspace:^1.0.0",
     "chalk": "5.3.0",
     "commander": "11.0.0",
     "dirname-filename-esm": "1.1.1",
@@ -27,7 +27,5 @@
     "lib",
     "bin"
   ],
-  "dependencies": {
-    "bin": "link:C:/Users/shi/Desktop/vue/quirks-cli/packages/cli/bin"
-  }
+  "dependencies": {}
 }

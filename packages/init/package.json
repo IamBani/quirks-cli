@@ -1,6 +1,6 @@
 {
-  "name": "@quirks/init",
-  "version": "1.0.3",
+  "name": "@quirks-cli/init",
+  "version": "1.0.0",
   "description": "quirks init command",
   "author": "bani",
   "license": "ISC",
@@ -13,8 +13,8 @@
     "execa": "8.0.1",
     "ejs": "3.1.9",
     "glob": "10.3.10",
-    "@quirks/command": "workspace:^1.0.3",
-    "@quirks/utils": "workspace:^1.0.3"
+    "@quirks-cli/command": "workspace:^1.0.0",
+    "@quirks-cli/utils": "workspace:^1.0.0"
   },
   "directories": {
     "lib": "lib"

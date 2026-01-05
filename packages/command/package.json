@@ -1,6 +1,6 @@
 {
-  "name": "@quirks/command",
-  "version": "1.0.3",
+  "name": "@quirks-cli/command",
+  "version": "1.0.0",
   "description": "quirks command",
   "author": "bani",
   "license": "ISC",
