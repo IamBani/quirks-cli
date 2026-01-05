@@ -1,6 +1,7 @@
 .idea
 .history
 node_modules
+.npmrc
 
 packages/**/node_modules
 /packages/**/dist/**
