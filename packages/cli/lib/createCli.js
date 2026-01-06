@@ -3,7 +3,7 @@ import { program } from 'commander'
 import fsExtra from 'fs-extra'
 import semver from 'semver'
 import chalk from 'chalk'
-import { log, getDirName } from '@quirks/utils'
+import { log, getDirName } from '@quirks-cli/utils'
 import './exception.js'
 
 const __dirname = getDirName(import.meta.url)

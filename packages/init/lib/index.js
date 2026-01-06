@@ -1,6 +1,6 @@
 'use strict'
-import Command from '@quirks/command'
-import { log } from '@quirks/utils'
+import Command from '@quirks-cli/command'
+import { log } from '@quirks-cli/utils'
 
 import createTemplate from './createTemplate.js'
 import downloadTemplate from './downloadTemplate.js'

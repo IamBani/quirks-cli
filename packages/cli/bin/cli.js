@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import importLocal from 'import-local'
 
-import { log } from '@quirks/utils'
+import { log } from '@quirks-cli/utils'
 import entry from '../lib/index.js'
 if (importLocal(import.meta.url)) {
   log.info('cli', '使用本次 quirks 版本')

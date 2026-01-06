@@ -1,4 +1,4 @@
-import { log, debug } from '@quirks/utils'
+import { log, debug } from '@quirks-cli/utils'
 
 function printErrorLog(e, type) {
   if (debug()) {

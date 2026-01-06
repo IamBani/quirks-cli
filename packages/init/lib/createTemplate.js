@@ -1,6 +1,6 @@
 import { homedir } from 'node:os'
 import path from 'node:path'
-import { log, makeList, makeInput, getLatestVersion } from '@quirks/utils'
+import { log, makeList, makeInput, getLatestVersion } from '@quirks-cli/utils'
 
 const ADD_TYPE_PAGE = 'page'
 const ADD_TYPE_PROJECT = 'project'
@@ -23,9 +23,9 @@ const ADD_TEMPLATE = [
   },
   {
     name: 'vue3项目模板',
-    npmName: '@quirks/vue3-template',
+    npmName: '@quirks-cli/vue3-template',
     version: '1.0.1',
-    value: '@quirks/vue3-template'
+    value: '@quirks-cli/vue3-template'
   }
 ]
 

@@ -3,7 +3,7 @@ import { pathExistsSync } from 'path-exists'
 import { mkdirpSync } from 'fs-extra'
 import ora from 'ora'
 import { execa } from 'execa'
-import { log } from '@quirks/utils'
+import { log } from '@quirks-cli/utils'
 
 function getCacheDir(targetPath) {
   return path.resolve(targetPath, 'node_modules')

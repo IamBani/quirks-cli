@@ -1,4 +1,4 @@
-import createInitCommand from '@quirks/init'
+import createInitCommand from '@quirks-cli/init'
 
 import createCli from './createCli.js'
 

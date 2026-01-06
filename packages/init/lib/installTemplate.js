@@ -1,7 +1,7 @@
 import path from 'node:path'
 import fse from 'fs-extra'
 import { pathExistsSync } from 'path-exists'
-import { log } from '@quirks/utils'
+import { log } from '@quirks-cli/utils'
 import ora from 'ora'
 import ejs from 'ejs'
 import { glob } from 'glob'

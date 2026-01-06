@@ -1,5 +1,11 @@
 # @quirks-cli/init
 
+## 1.0.3
+
+### Patch Changes
+
+- 修改名称
+
 ## 1.0.2
 
 ### Patch Changes
